@@ -47,8 +47,8 @@ print(f'{Espresso} Espressos at ${espressoprice: .2f} each: $ {Espresso * espres
 
 #print subtotal, tax, and total
 print(f'Subtotal: ${Subtotal: .2f}')
-print(f'Tax: {Tax: .2f}')
-print(f'Total: {Total: .2f}')
+print(f'Tax: ${Tax: .2f}')
+print(f'Total: ${Total: .2f}')
 
 #print Decorative line to match assignment
 print('*'*30)
